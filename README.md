@@ -57,7 +57,7 @@ Results (images with bounding boxes) will appear in `runs/detect/predict/`.
 
 ```
 ├── yolo-car-plates.ipynb   # Main notebook (training + inference)
-├── requirements.txt        # Python dependencies
+├── yolo8-car-plates.ipynb   
 └── README.md               # Project documentation
 ```
 
@@ -66,6 +66,3 @@ Results (images with bounding boxes) will appear in `runs/detect/predict/`.
 * Adjust YOLO hyperparameters (`data.yaml`, image size, epochs) to match your dataset.
 * Integrate live webcam or video streams by setting `source=0` or a video file path.
 
----
-
-Would you like me to generate a starter `requirements.txt` for YOLOv8, OpenCV, and notebook dependencies?
